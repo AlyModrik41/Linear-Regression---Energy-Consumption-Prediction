@@ -57,12 +57,10 @@ python 20231700236.py
 
 ## Files
 
-- `20231700236.py` — main code
-- `20231700236.pdf` — full report with plots and conclusions
-- `assignment1dataset.csv` — dataset
+- `main.py` — main code
+- `report.pdf` — full report with plots and conclusions
+- `energycons.csv` — dataset
 
 ## Author
 
 **Aly Mahmoud Aly Hassan**  
-Student ID: 20231700236  
-Department: Artificial Intelligence — Year 3
