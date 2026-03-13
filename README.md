@@ -2,6 +2,8 @@
 
 A from-scratch implementation of Simple and Multiple Linear Regression using gradient descent to predict building energy consumption.
 
+---
+
 ## Dataset
 
 The dataset contains 5 columns:
@@ -14,6 +16,8 @@ The dataset contains 5 columns:
 | Average Temperature | Average temperature in the building |
 | Energy Consumption | Target variable (kWh) |
 
+---
+
 ## Models Trained
 
 6 models in total:
@@ -24,6 +28,8 @@ The dataset contains 5 columns:
 - Simple Linear Regression — Average Temperature
 - Multiple Linear Regression — All Features
 - Multiple Linear Regression — All Features except Average Temperature
+
+---
 
 ## Results Summary
 
@@ -39,6 +45,18 @@ The dataset contains 5 columns:
 **Best single feature:** Square Footage  
 **Best overall model:** Multiple Linear Regression with all features
 
+---
+
+## Plots
+
+### Learning Rate vs MSE
+### Epochs vs MSE
+
+<!-- Add your LR vs MSE plot here -->
+<img width="1400" height="500" alt="LR, epochs vs MSE" src="https://github.com/user-attachments/assets/85a245af-5cb8-4333-9778-e7df59922dee" />
+
+---
+
 ## Implementation Details
 
 - Normalization: Min-Max Scaling to [0, 1]
@@ -48,18 +66,24 @@ The dataset contains 5 columns:
 - Best learning rate: 0.1
 - Best epochs: 1000
 
+---
+
 ## How to Run
 
 ```bash
 pip install numpy pandas matplotlib
-python 20231700236.py
+python main.py
 ```
+
+---
 
 ## Files
 
 - `main.py` — main code
 - `report.pdf` — full report with plots and conclusions
 - `energycons.csv` — dataset
+
+---
 
 ## Author
 
