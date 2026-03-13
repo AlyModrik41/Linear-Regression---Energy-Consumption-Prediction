@@ -49,7 +49,7 @@ The dataset contains 5 columns:
 
 ## Plots
 
-### Learning Rate vs MSE                                      ### Epochs vs MSE
+### Learning Rate vs MSE                                                Epochs vs MSE
 
 <!-- Add your LR vs MSE plot here -->
 <img width="1400" height="500" alt="LR, epochs vs MSE" src="https://github.com/user-attachments/assets/85a245af-5cb8-4333-9778-e7df59922dee" />
